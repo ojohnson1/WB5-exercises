@@ -1,0 +1,10 @@
+
+.roundedImg{
+    border-radius: 50%;
+    width:300px;
+    height:250px
+}
+
+p{
+    margin-top: 3px;
+}
