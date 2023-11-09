@@ -21,7 +21,7 @@ let menu = [
   ],
 ];
 
-let meal = 0;
+let meal = 1;
 if (meal == 0) {
   console.log("Breakfast Menu");
 } else if (meal == 1) {
@@ -31,6 +31,9 @@ if (meal == 0) {
 } else {
   console.log("Wrong Choice");
 }
+
+menu[meal].forEach( (menuitem) => console.log(menuitem.item));
+
 // menu.forEach function (meal){
 //  if(meal == 0){
 //      console.log( `Breakfast Menu \n`)
